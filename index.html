@@ -6,16 +6,43 @@
   <title>Test</title>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <script src="js/index.js"></script>
 </head>
 <body id="body">
   <div class="container">
-    <div class="main">
-      <div class="content">
+    <div class="main-content">
+      <table class="table">
+        <tr>
+          <th>Стартовое значение</th>
+          <th contenteditable="true"></th>
+        </tr>
+        <tr>
+          <th>Процент</th>
+          <th contenteditable="true"></th>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Предсказанное занчение</td>
+        </tr>
+        <tr>
+          <td>Месяц 1</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Месяц 2</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Месяц 3</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div class="main-overlay">
+      <div class="main-overlay-content">
         <div class="content-title">
           <img src="img/title.png">
         </div>
-        <button class="content-btn btn">Next</button>
+        <button class="content-toggle btn">Next</button>
       </div>
       <footer class="footer">
         <div class="footer-contact">
@@ -38,5 +65,6 @@
       </footer>
     </div>
   </div>
+  <script src="js/index.js"></script>
 </body>
 </html>
