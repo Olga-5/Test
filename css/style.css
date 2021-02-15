@@ -178,13 +178,20 @@ img {
   cursor: pointer;
 }
 
+.tables-container {
+  padding: 50px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .table {
   font-size: 20px;
   border-collapse: collapse;
-  margin: 50px;
-  margin-left: 100px;
-  position: absolute;
   cursor: auto;
+  margin-bottom: 40px;
+  margin-right: 40px;
 }
 
 th {
@@ -199,4 +206,28 @@ td {
 td, th {
   border: 1px solid #000000;
   padding: 15px;
+}
+
+.grid-table {
+  cursor: auto;
+  display: grid;
+  width: 506px;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: 233px 1fr;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  margin-bottom: 40px;
+}
+
+.grid-table span {
+  font-size: 20px;
+  padding: 14px;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+
+.grid-table span:nth-child(-n + 4) {
+  background-color: wheat;
 }
