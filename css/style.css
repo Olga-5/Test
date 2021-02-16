@@ -108,6 +108,18 @@ input::-webkit-inner-spin-button {
   height: 100px;
 }
 
+@media (max-width: 1280px) {
+  .content-title {
+    height: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content-title {
+    height: 70px;
+  }
+}
+
 .content-toggle {
   font-size: 0;
   width: 100px;
@@ -127,6 +139,18 @@ input::-webkit-inner-spin-button {
   justify-content: space-between;
   align-items: flex-end;
   margin-top: auto;
+}
+
+@media (max-width: 1280px) {
+  .footer {
+    padding: 0 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 0 20px;
+  }
 }
 
 .footer-menu {
